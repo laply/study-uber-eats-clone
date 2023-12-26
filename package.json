@@ -1,0 +1,30 @@
+{
+    "name": "study-uber-eats-clone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev:server": "npm run start:dev --workspaces=@apps/server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/laply/study-uber-eats-clone.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/laply/study-uber-eats-clone/issues"
+    },
+    "homepage": "https://github.com/laply/study-uber-eats-clone#readme",
+    "workspaces": [
+        "apps/*"
+    ],
+    "dependencies": {
+        "@yarnpkg/plugin-workspace-tools": "^4.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
