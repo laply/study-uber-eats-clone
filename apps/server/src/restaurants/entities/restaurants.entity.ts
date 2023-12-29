@@ -8,7 +8,7 @@ export class Restaurant {
   @Field(() => Number)
   @PrimaryGeneratedColumn()
   @IsNumber()
-  id: Number;
+  id: number;
 
   @Field(() => String)
   @IsString()
@@ -20,17 +20,17 @@ export class Restaurant {
   @Column({ default: true })
   @IsOptional()
   @IsBoolean()
-  veganOnly: Boolean;
+  veganOnly: boolean;
 
   @Field(() => String, { defaultValue: '강남' })
   @Column({ default: '강남' })
   @IsString()
-  address: String
+  address: string
 
   @Field(() => String)
   @IsString()
   @Column()
-  ownersName: String
+  ownersName: string
 
   @Field(() => String)
   @IsString()
